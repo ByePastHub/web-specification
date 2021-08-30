@@ -62,7 +62,7 @@ module.exports = {
               ]
             },
             {
-              title: 'Bugger',
+              title: 'Issues',
               path:'/pages/other/issues',
               collapsable: true,
               children: [
