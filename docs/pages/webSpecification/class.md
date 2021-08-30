@@ -66,7 +66,7 @@ sidebarDepth: 4
   或许你们会发现，加了这个`scoped`后，就是有时候就算加上`!important`也覆盖不了第三方UI样式
   :::
   ::: tip 解决办法
-  可以使用深度作用选择器
+  可以使用深度作用选择器，`less`使用`/deep/`、`scss`使用`::v-deep`、`stylus`使用`>>>`
   ```css
   /deep/.xxx-xxx {
     background-color: red !important;
